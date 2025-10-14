@@ -1,0 +1,15 @@
+@import "tailwindcss";
+
+body {
+  font-family: "Noto Sans", sans-serif;
+  font-weight: 400;
+  margin-bottom: 100px;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+[id] {
+  scroll-margin-top: 100px; /* adjust based on your navbar height */
+}
