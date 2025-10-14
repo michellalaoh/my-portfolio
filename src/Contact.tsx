@@ -9,8 +9,9 @@ export default function Contact() {
       <div>
         <h1 className='text-[oklch(54.6%_0.245_262.881)] mt-40 mb-2'>CONTACT</h1>
         <h1 className='font-bold'>Feel free to reach me out anytime! 👇🏼</h1>
-        <div className='flex flex-row gap-10'>
-          <div className='flex flex-row justtify-center items-center mt-5'>
+        <div className='flex sm:flex-row flex-col flex-col-reverse
+ sm:gap-10 gap-5'>
+          <div className='flex flex-row justtify-center items-center sm:mt-5 mt-0'>
             <img className='logo-icon' src={mail} />
             <div className='pl-5'>
               <h1 className='font-bold'>Mail</h1>

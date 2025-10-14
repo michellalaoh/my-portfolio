@@ -63,9 +63,9 @@ export default function Home() {
           <img src={myprofile} />
         </div>
       </div>
-      <div className='flex flex-row items-center justify-between'>
-        <div className='w-1/4 border-r-1 border-black-400'>Tech Stack</div>
-        <div className='w-3/4 flex flex-row gap-4 justify-end'>
+      <div className='flex sm:flex-row flex-col items-center justify-between'>
+        <div className='sm:w-1/4 w-full sm:border-r-1 sm:border-black-400 flex items-center justify-center sm:justify-start mb-10 sm:mb-0'>Tech Stack</div>
+        <div className='sm:w-3/4 w-full flex flex-row gap-4 sm:justify-end justify-center'>
           <img className='logo-icon' src={htmllogo} />
           <img className='logo-icon' src={csslogo} />
           <img className='logo-icon' src={jslogo} />
