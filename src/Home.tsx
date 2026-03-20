@@ -9,14 +9,17 @@ import tslogo from './assets/ts-logo.png'
 import reactlogo from './assets/react-logo.png'
 import gitlogo from './assets/git-logo.png'
 import twlogo from './assets/tw-logo.png'
+import nestlogo from './assets/NestJS.svg'
+import Postgresqllogo from './assets/Postgresql.png'
+import drizzlelogo from './assets/drizzle.png'
 
 export default function Home() {
   return (
     <Container maxWidth="sm" id="home" className='mt-20'>
       <div className='flex flex-row items-center py-4 gap-8 pb-15'>
         <div className='w-2/3'>
-          <h1 className='font-bold text-3xl py-4'>Front-End React Developer 👋🏼</h1>
-          <p className='pb-4'>Hi, I'm Michella Laoh. A passionate Front-end React Developer based in Jakarta, Indonesia. 📍</p>
+          <h1 className='font-bold text-3xl py-4'>Full-stack React Developer 👋🏼</h1>
+          <p className='pb-4'>Hi, I'm Michella Laoh. A passionate Full-stack React Developer based in Jakarta, Indonesia. 📍</p>
           <div className='flex flex-row gap-4'>
 
             <a
@@ -63,9 +66,9 @@ export default function Home() {
           <img src={myprofile} />
         </div>
       </div>
-      <div className='flex sm:flex-row flex-col items-center justify-between'>
-        <div className='sm:w-1/4 w-full sm:border-r-1 sm:border-black-400 flex items-center justify-center sm:justify-start mb-10 sm:mb-0'>Tech Stack</div>
-        <div className='sm:w-3/4 w-full flex flex-row gap-4 sm:justify-end justify-center'>
+      <div className='flex flex-col items-center justify-between'>
+        <div className=' w-full flex items-center justify-center mb-6'>Tech Stack</div>
+        <div className='w-full flex flex-wrap flex-row gap-4 justify-center'>
           <img className='logo-icon' src={htmllogo} />
           <img className='logo-icon' src={csslogo} />
           <img className='logo-icon' src={jslogo} />
@@ -73,6 +76,9 @@ export default function Home() {
           <img className='logo-icon' src={reactlogo} />
           <img className='logo-icon' src={twlogo} />
           <img className='logo-icon' src={gitlogo} />
+          <img className='logo-icon' src={nestlogo} />
+          <img className='logo-icon' src={Postgresqllogo} />
+          <img className='logo-icon' src={drizzlelogo} />
         </div>
       </div>
     </Container>
