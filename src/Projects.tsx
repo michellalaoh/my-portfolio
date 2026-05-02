@@ -31,14 +31,14 @@ export default function Projects() {
         <h1 className='mb-5 font-semibold mt-10'>React&nbsp;&nbsp; Typescript &nbsp;&nbsp; Tailwind</h1>
         <div className="flex flex-row items-center justify-center gap-6 mt-10">
           <a
-            href="https://github.com/michella1233/movie-project"
+            href="https://github.com/michellalaoh/gogreenly.git"
             target="_blank"
             rel="noopener noreferrer"
             className="flex items-center gap-2">
             Code <img className="logo-icon" src={githublogo} />
           </a>
           <a
-            href="https://michellalaoh.github.io/movie-project/"
+            href="https://gogreenly.michellalaoh.space/"
             target="_blank"
             rel="noopener noreferrer"
             className="flex items-center gap-2">
